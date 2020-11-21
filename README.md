@@ -1,10 +1,13 @@
 # 截图收集
 
-#### 介绍
-用于大学习截图收集，要结合腾讯文档使用
+## 介绍
+为缓解广大班长团支书收集截图的痛苦，故编写此程序，要结合腾讯文档使用
+本软件主要使用腾讯文档的收集表功能，需要在收集表中添加图片收集，
+收集完成后将xlsx文件导出，本软件可以读取导出的Excel文件，程序会默认将下载
+的图片重命名成收集表的第一项收集的字符，也可通过更改参数更改命名
 
 #### 软件架构
-软件架构说明
+本软件采用Python、PyQt5、openpyxl、wget开发，并使用多线程以提高下载速度。
 
 
 #### 安装教程
@@ -15,23 +18,4 @@
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.线程不宜设置太多，会被腾讯服务器封禁，封禁后只能使用单线程下载
