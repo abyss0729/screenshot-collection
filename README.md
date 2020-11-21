@@ -10,11 +10,8 @@
 本软件采用Python、PyQt5、openpyxl、wget开发，并使用多线程以提高下载速度。
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 腾讯文档收集表示例
+![img.png](img.png)
 
 #### 使用说明
 
